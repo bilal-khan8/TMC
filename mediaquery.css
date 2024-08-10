@@ -1,0 +1,62 @@
+
+
+.mediaquery{
+    color:brown;
+    font-size: large;
+
+}
+@media screen and (max-width:900px){
+
+    .mediaquery{
+        font-size: 14px;
+        color:blue;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .mediaquery{
+        font: size 24px;
+        color:bisque;
+        
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    .mediaquery{
+        font: size 29px;
+        color:black;
+    }
+    
+}
+.row{
+    border:thick;
+    border-color: blue;
+    border-style:groove;
+    padding: 10px;
+    background-image: linear-gradient(Blue,red);
+  }
+
+@media screen and (min-width:600px){
+    .mediaquery{
+        font: size 24px;
+        color:bisque;}
+        
+
+    
+    .class1{
+        border-color:tomato;
+        border-style: groove;
+        background-color: red;
+    
+    }
+}
+.p-2{
+    border: 10px;
+    border-color: black,red;
+    background-color: gold;
+    color: navy;
+    border-radius: 25%;
+    border-style: double;
+}
