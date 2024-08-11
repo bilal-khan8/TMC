@@ -1,0 +1,42 @@
+h1{
+    color: crimson;
+    font-family: cursive;
+    font-weight: bold;
+}
+p{
+    color: blueviolet;
+    font-family: fantasy;
+    font-weight: bolder
+}
+.paras{
+       color: bisque ;
+}
+#Heading1{
+    color: chartreuse;
+    font: bold;
+}
+.container{
+    margin-right: 1500px;
+    margin-left: 150px;
+    padding: 15px;
+    border: thick;
+    background-color: blueviolet;
+    color: blanchedalmond;
+    border-color: bisque;
+    border-radius: 10px; 
+    text-align: center;
+    background-image: url('tmc\ image.png');
+    width: 450px; 
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+}
+#gradient1{
+    width: 2500px;
+    height: 250px;
+    background-image: linear-gradient(
+        to top,
+        rgb(17, 175, 237),
+        rgb(210, 81, 96)
+    );
+}
