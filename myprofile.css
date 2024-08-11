@@ -1,34 +1,98 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+:root{
+    --main-color: rgb(15,15,15);
+    --main-font-color:rgb(254, 254, 254);
+    --padding:20px;
+    --normal-text-size:16px;
+    --second-color:#03afed;
+    --margin-left: 150px;
+}
 body{
-  background-color: black;  
+    font-family: "Poppins", sans-serif;
+    color: var(--main-font-color);
+    background-color: var(--main-color);
 }
+a{
+    text-decoration: none;
+    z-index: 99;
+    color: var(--main-font-color);
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 80%;
+    height: 60px;
+    z-index:1;
+    
 
-
-
-#h2{
-    color: rgb(244, 237, 237);
-    margin-left: 80%;
 }
-#paragraph{
-    color: rgb(247, 247, 247);
-    text-align: center;
+ul{
+    display:flex;
+    gap:30px;
+    list-style: none;
+
+    
 }
- #myphoto{
- float:right;
- margin-right: 50px;
+.main{
+    display: flex;
 
 }
-#nametag{
-    margin-left: 2%;
-    color: azure;
-}
-#frontend{
-    color: rgb(38, 13, 233);
+.page-container{
+    padding: 142px;
 }
 #buttons{
-    color: aqua;
-    align: center;
+    padding: 20px
+    ;
 }
-#footers{
-    text-align: center;
-    margin-top: 80%;
+.photo{
+    display: flex;
+    flex-direction: row;
 }
+c
+
+.content{
+    height: 100vh;
+}
+
+.foot{
+ display: flex;
+ flex-direction: row;
+ gap: 12px;
+}
+.span{
+    color: #03afed;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:750px){
+   .main{
+    flex-direction: column;
+   } 
+   .photo{
+    order: 1;
+   }
+   .text-main{
+    order: 2;
+   }
+   .text-main{
+    width: 100%;
+   }
+   .content{
+    height: 100%;
+   }
+   .page-container{
+    padding: 0 3%;
+   }
+}
+
+
+
+
