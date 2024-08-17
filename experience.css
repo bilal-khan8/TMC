@@ -1,68 +1,284 @@
-{
-    padding: 0;
-    margin: 0;
-    }
-    :root {
-      --main-color: #071e2e;
-      --main-font-color: white;
-      --padding: 20px;
-      --normal-text-size: 16px;
-      --second-color: #03afed;
-    }
-    html,
-    body {
-      height: 100%;
-    }
-    body {
-      font-family: "Poppins", sans-serif;
-      color: var(--main-font-color);
-      background-color: var(--main-color);
-    }
-    .margin-top {
-      margin-top: 15px;
-    }
-    .circle {
-      width: 20px;
-      height: 20px;
-    
-      border-radius: 50%;
-      background-color: var(--second-color);
-    }
-    .column {
-      width: 1px;
-      /* height: 420px; */
-      height: 100%;
-      background-color: var(--second-color);
-    }
-    .exp-icon {
-      display: flex;
+body{
+    background-color: #071E2E;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding-left: 142px;
+    padding-right: 142px;
+}
+html,body{
+    height: 100%;
+}
+
+
+.exp-text{
+    margin-left: 40px;
+}
+
+.exp-item{
+    display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-    }
-    .exp-item {
-      display: flex;
-      justify-content: center;
+}
+.icon-list{
+    list-style: none;
     
-      gap: 10px;
-    }
-    .exp-role {
-      font-size: 24px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      font-family: "Poppins";
-    }
-    .exp-company,
-    .exp-doc {
-      font-size: 18px;
-      line-height: 28px;
-      font-weight: 400;
-      font-family: "Poppins";
-    }
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 142px;
+    padding-right: 142px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+}
+.my-photo{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 142px;
+    padding-right: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+
+}
+.exp-heading{
+    font-size: 64px;
+    font-weight: 600px;
+    font-style: normal;
+    line-height: 84px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    line-height: 84px;
+    padding-left: 142px;
+    padding-right: 142px;
+}
+.about-para{
+    padding-left: 142px;
+    padding-right: 142px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.buttons{
+    padding-left: 142px;
+    padding-right: 142px;
+    padding-top: 32px;
+    display: flex;
+    gap: 16px;
+    align-items:center;
+    justify-content: center;
+}
+
+.primary-btn{
+    display: flex;
+    width: 160px;
+    color: #FFFFFF;
+    background-color: #03AFED;
+    border-radius: 10px;
+    padding-left:48px;
+    padding-right: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    line-height: 28px;
+    font-style: normal;
+
+}
+
+.secondary-btn{
+    display: flex;
+    width: 151px;
+    border-radius: 10px;
+    padding-left:48px;
+    padding-right: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    font-style: normal;
     
-    .exp-company {
-      margin-bottom: 24px;
+}
+.horizontal-line{
+    background-color: #071E2E;
+    padding-top: 96px;
+    padding-bottom: 0px;
+    height: 0.5px;
+    padding-left: 142px;
+    padding-right: 142px;
+
+}
+
+.circle{
+    border: thick;
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 40px;
     }
-    .exp-doc {
-      margin-bottom: 48px;
+
+.column{
+    height: 300px;
+    width: 1px;
+    background-color: aqua;
+    flex-direction: column;
+    padding-bottom: 0%;
+}
+.exp-icon{
+    font-size: 48px;
+    font-weight: 500;
+    padding-left: 141px;
+
+}
+.exp-body{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-top:5px;
+
+}
+.line-circle{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.exp-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.circle-2{
+    border: thick;
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 40px;
     }
+
+.column-2{
+    height: 300px;
+    width: 1px;
+    background-color: aqua;
+    flex-direction: column;
+    padding-bottom: 0%;
+}
+.exp-body2{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-top:5px;
+    padding-left: 580px;
+
+    
+}
+.line-circle-2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.exp-text-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.circle-3{
+    border: thick;
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 40px;
+    }
+
+.column-3{
+    height: 300px;
+    width: 1px;
+    background-color: aqua;
+    flex-direction: column;
+    padding-bottom: 0%;
+}
+.exp-body3{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-top:5px;
+    padding-left: 580px;
+
+    
+}
+.line-circle-3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.exp-text-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 96px;
+}
+
+.horizontal-line2{
+    background-color: #071E2E;
+    padding-top: 96px;
+    padding-bottom: 96x;
+    height: 0.5px;
+    padding-left: 142px;
+    padding-right: 142px;
+    align-items: center;
+}
+.foot-text{
+    padding-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+
