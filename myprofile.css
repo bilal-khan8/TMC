@@ -45,15 +45,66 @@ ul{
 .page-container{
     padding: 142px;
 }
-#buttons{
-    padding: 20px
-    ;
+.buttons{
+    font-size: 18px;
+    padding: 12px 48px;
+    border-radius: 5px;
+   
 }
+.primarybtn{
+    background-color: #03afed;
+    border: thick 2px white ;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: none;transition: all 2s;
+    cursor: pointer;
+}
+    
+.secondarybtn{
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    color: #03afed;
+    background-color: var(--main-color);
+    border:1px solid #03afed;
+    cursor: pointer;
+}
+.primarybtn:hover{
+    background-color: var(--main-color);
+    color: #03afed;
+    border:2px solid #03afed;
+}
+.secondarybtn:hover{
+    background-image: linear-gradient(--main-color,red);
+    color: var(--main-font-color);
+}
+.text-main{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 84px;
+    animation: move 5s forwards ease-in-out infinite;
+  }
+  @keyframes move {
+    from {
+      border: 20px solid rgb(195, 255, 0);
+      border-style: groove;
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+   
 .photo{
     display: flex;
     flex-direction: row;
+
 }
-c
 
 .content{
     height: 100vh;

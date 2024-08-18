@@ -1,0 +1,18 @@
+
+#spin{
+    animation: spin 2s linear infinite;
+    width: max-content;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+#spin:hover{
+    border: 2px solid rgb(218, 54, 68);
+    border-radius: 15566660%;
+
+}
