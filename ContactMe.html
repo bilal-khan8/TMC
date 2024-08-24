@@ -2,35 +2,66 @@
 <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactme.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
     <Title>Contact Me</Title>
 </header>
 <body>
-    <h2>.Bilal   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           Home About Portfolio Contact</h2>
-    <h1>Have a Project?</h1>
-    <h1>Contact Me <img src="download.jpg" width="20" height="20"></h1>
-
-    <div>
-        <p>Send me an email and I will get back to you!</p>
+    <div class="flex-container">
+        <div><img src="logo.svg"></div>
+        <div class="navigation">
+            <a class="anchor" href="Home.html">Home</a>
+            <a class="anchor"href="about.html">About Me</a>
+            <a class="anchor"href="ContactMe.html">Contact Me</a>
+            <a class="anchor" href="Portfolio.html">Portfolio</a>
+        </div>
     </div>
-    <div>
-        <form actions="" method="post">
-            <p>Your Name</p>
-            <input type="text" name="Your Name" placeholder="Enter Your Name" required />
-            <p>Your Email</p>
-            <input type="email" name="Your Email" placeholder="Enter Your Email" required />
-        </div>
-        <div>
-            <p>Type your Message</p>
-            <textarea cols="20" rows="15" placeholder="Type your Message"></textarea>
-        </div>
-        <div>
-            <span>
-                <p> Find me On</p>
-            </span>
-            <img src="github logo.png" width="20" height="20"> <img src="facebook logo.jpg"width="20" height="20"> <img src="twitter logo.webp" width="20" height="20">
-        </div>
-        </form>
+    
 
+  <div class="page-container">
+
+   <div class="form-head">
+        <div><h1 class="heading1"> Have a Project? </br></h1>
+            <h1 class="heading1">Contact Me<img id="handemoji" src="icons8-raised-hand-48.png" width="60" height="60"></h1>
+        </div>
+   </div>
+        <div class="heading3">
+            <p>Send me an email and I will get back to you!</p>
+        </div>
+
+   
+    <div class="form">
+        <div>
+        <form actions="" method="post">
+            <p class="place-holder">Your Name</p>
+            <input class="text-area" type="text" name="Your Name" placeholder="Enter Your Name" required />
+            <p class="place-holder">Your Email</p>
+            <input class= "text-area" type="email" name="Your Email" placeholder="Enter Your Email" required />
+        </div>
+        <div>
+            <p class="place-holder">Type your Message</p>
+            <textarea class="text-area" cols="30" rows="25" placeholder="Type your Message"></textarea>
+        </div>
+        <div id="button">
+            <button class="btn-submit">Submit</button>
+        </div>
+    </div>
+    </div>
+
+
+            <div class="foot">
+                <div><p> Find me On</p></div>
+           <div><img src="github logo.png" width="20" height="20"> 
+            <img src="facebook logo.jpg"width="20" height="20"> 
+            <img src="twitter logo.webp" width="20" height="20">
+            <img src="twitter logo.webp" height="20" width="20">
+            <img src="facebook logo.jpg" height="20" width="20">
+        </div>
+            </div>
+        </form>
     </div>
 
 
